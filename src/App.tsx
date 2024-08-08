@@ -8,6 +8,7 @@ import MultipleMethods from './components/MultipleMethods';
 import ReactQuery3 from './ReactQuery3';
 import Axios from './Axios';
 import Axios2 from './Axios2';
+import ReactQuery4 from './ReactQuery4';
 // import { CreatePost } from './components/CreatePostExample';
 
 function App() {
@@ -39,6 +40,9 @@ function App() {
 					<li>
 						<Link to='/axios2'>Axios2</Link>
 					</li>
+					<li>
+						<Link to='/react-query-4'>react-query-4</Link>
+					</li>
 				</ul>
 			</nav>
 			<Routes>
@@ -52,6 +56,7 @@ function App() {
 				{/* <Route path='/create-post-example' element={<CreatePost />} /> */}
 				<Route path='/axios' element={<Axios />} />
 				<Route path='/axios2' element={<Axios2 />} />
+				<Route path='/react-query-4' element={<ReactQuery4 />} />
 			</Routes>
 		</Router>
 	);
